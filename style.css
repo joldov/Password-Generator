@@ -1,0 +1,104 @@
+body {
+    background-color: #f5ffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #a9a0f9;
+    border-radius: 15px;
+    background-color: #f7e6e9;
+}
+
+.top-container {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #352bff;
+}
+
+p {
+    color: #333dff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: white;
+    background-color: #0a1df6;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff3366;
+}
+
+.question-container {
+    margin-top: 20px;
+}
+
+.question-modal, .answer-modal {
+    padding: 15px;
+    border: 1px solid #f9b8be;
+    border-radius: 10px;
+    background-color: #fef2fe;
+}
+
+.length-field, .checks {
+    margin-bottom: 10px;
+}
+
+label {
+    color: #635ce9;
+}
+
+input[type="number"], .answer-field {
+    padding: 5px;
+    border: 1px solid #ff9aa2;
+    border-radius: 5px;
+    width: 200px;
+}
+
+input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+.copy-btn {
+    margin-top: 10px;
+}
+
+.copy-btn .btn {
+    background-color: #502dff;
+}
+
+.copy-btn .btn:hover {
+    background-color: #ff3366;
+}
+
+.home-btn {
+    text-align: center;
+    position: relative;
+    height: 50px;
+}
+
+footer {
+    /* background-color: #f1f1f1; */
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.github-icon {
+    width: 50px;
+    height: 50px;
+}
